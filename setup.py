@@ -24,7 +24,7 @@ except Exception:
 
 sys.path[:] = path_copy
 
-install_requires = ["six>=1.10.0", "promise>=2.3,<3", "rx>=1.6,<2"]
+install_requires = ["six>=1.10.0", "promise>=2.3,<3", "rx>=1.6,<4"]  # Rx version range extended from <2 to <4 to resolve dependency hell
 
 tests_requires = [
     "six==1.14.0",
